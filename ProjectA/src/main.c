@@ -144,6 +144,9 @@ int main(int argc, char *argv[])
 		printf("\n");
 	}
 
+	double pi = -3.1415;
+	printf("pi = %f (%d) \n", pi, sizeof(long double));
+
 	printf("ProjectA is finish, so all is shit \n");
 	return 0;
 }
